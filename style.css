@@ -272,8 +272,9 @@ nav a {
         text-align: center;
     }
     nav .links {
-        flex-direction: column;
         gap: 16px;
+        flex-direction: column;
+           
     }
 
     .h-heading {
@@ -321,7 +322,7 @@ nav a {
 }
 
 
-@media (max-width: 585px) {
+@media (max-width: 588px) {
     .container {
         padding: 0 8px;
     }
@@ -336,6 +337,62 @@ nav a {
     .h-heading {
         font-size: 40px;
         line-height: 50px;
+    }
+    .h-image img {
+        height: 250px;
+    }
+
+    .images-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 1rem;
+    }
+
+    .main-text h3 {
+        font-size: 16px;
+    }
+
+    .featured-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .featured-project img {
+        height: 200px;
+    }
+
+    .text11 h2 {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+    .footer p {
+        font-size: 1rem;
+    }
+    .button {
+        font-size: 10px;
+        width: 100px;
+        height: 30px;
+    }
+}@media (max-width:377px) {
+    .container {
+        padding: 0 8px;
+        
+    }
+
+    nav .logo {
+        font-size: 28px;
+    }
+    nav a {
+        font-size: 14px;
+        
+    }
+
+    .h-heading {
+        font-size: 40px;
+        text-align: center;
+        line-height:2;
+    }
+    .h-heading1{
+        height:0px;
     }
     .h-image img {
         height: 250px;
